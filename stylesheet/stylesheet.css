@@ -65,7 +65,7 @@ ul.nav{
     width:100%;
     overflow:hidden; /* or overflow:auto; if you want scrollbars */
 
-    background: url("wallpaper.jpg") no-repeat center;
+    background: url("/wallpaper.jpg") no-repeat center;
    
     /*
     min-height: 480px;
@@ -162,7 +162,7 @@ h1{
 /*---------python.html--------- */
 
 .pythonheader{
-    background: url("Python_logo.png") no-repeat  top center;
+    background: url("/python/Python_logo.png") no-repeat  top center;
     background-size: contain;
     background-attachment: fixed;
     padding: 20% 0% 15% 0%;
@@ -171,7 +171,7 @@ h1{
 
 /*---------git.html--------- */
 .githeader{
-    background: url("gitlogo.jpg") no-repeat top center;
+    background: url("/git/gitlogo.jpg") no-repeat top center;
     background-size: contain;
     background-attachment: fixed;
     padding: 24% 0%;
