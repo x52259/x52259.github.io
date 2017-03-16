@@ -1,0 +1,186 @@
+/*{
+        border: 1px solid Red;
+}*/
+/*---------main---------*/
+html{
+    background-color: #000000;
+    color: White;
+    font-family: Arial, san-serif;
+}
+
+.navigationbar{
+    background-color: rgba(0,0,0,0.80);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+ul.nav li{
+    display: inline-block;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 2px 0px;
+    min-width: 13%;
+    text-align: center;
+    background-color: black;
+
+
+}
+
+ul.nav li:hover {
+    color: red;
+    border: 3px double red;
+    margin: 0px 10px;
+}
+
+ul.nav li[class="navactive"]{
+    border: 1px solid red;
+}
+
+ul.nav li a{
+    display: block;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+ul.nav li a:hover{
+    color: red;
+}
+
+ul.nav{
+    margin: 5px auto;
+    text-align: center;
+    list-style-type: none;
+}
+/*---------index.html--------- */
+.header{
+    background: url("wallpaper.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 40px;
+    padding: 24% 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin:0;
+    padding-top: 200px;
+    text-align: center;  
+    background-color: rgba(0,0,0,0.15);
+}
+
+.section{
+    background-color: rgba(255,255,255,0.2);
+    margin: 10px;
+    padding: 5px;
+}
+/*---------html-css.html--------- */
+.html-cssheader{
+    margin-top: 40px;
+}
+[class^="BB"]{
+    margin-bottom: 20px;
+}
+
+.BBSolid{
+    border: solid;
+}
+
+.BBDashed{
+    border: dashed;
+}
+
+.BBDotted{
+    border-style: dotted;
+}
+
+.BBDouble{
+    border-style: double;
+}
+
+.BBGroove{
+    border-style: groove;
+}
+
+.BBInset{
+    border-style: inset;
+}
+
+.BBOutset{
+    border-style: outset;
+}
+
+.BBRidge{
+    border-style:ridge;
+}
+
+.BBHidden{
+    border-style: hidden;
+}
+
+.Bwidthsample{
+    border: solid;    
+    border-width: 2px 7px 2px 7px;
+    width: 40%;
+    text-align: center; 
+}
+
+.BorderSample{
+    border: 5px double blue;
+    width: 40%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.BorderRadiusSample{
+    border: 5px double blue;
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    line-height: 50px;
+}
+
+/*---------python.html--------- */
+
+.pythonheader{
+    background: url("Python_logo.png") no-repeat  top center;
+    background-size: contain;
+    background-attachment: fixed;
+    margin-top: 40px;
+    padding: 20% 0% 15% 0%;
+    box-sizing: border-box;
+}
+
+/*---------git.html--------- */
+.githeader{
+    background: url("gitlogo.jpg") no-repeat top center;
+    background-size: contain;
+    background-attachment: fixed;
+    margin-top: 40px;
+    padding: 24% 0%;
+    box-sizing: border-box;
+}
+
+/*---------javascript.html--------- */
+.javascript-header{
+    background: url("javascriptheader.gif") no-repeat top center;
+    background-size: auto;
+    background-attachment: fixed;
+    margin-top: 40px;
+    padding: 24% 5% 11% 5%;
+    box-sizing: border-box;
+}
+
+div.javascript-header h2{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(255,0,0,0.7);
+}
