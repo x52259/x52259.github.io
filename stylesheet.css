@@ -151,7 +151,7 @@ h1{
 /*---------python.html--------- */
 
 .pythonheader{
-    background: url("Python_logo.png") no-repeat  top center;
+    background: url("python_logo.png") no-repeat  top center;
     background-size: contain;
     background-attachment: fixed;
     margin-top: 40px;
