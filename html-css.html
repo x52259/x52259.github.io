@@ -5,79 +5,79 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <title>HTML and CSS Notes</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <!--Navigation Bar-->
-    <div class="navigationbar">
-      <ul class="nav">
-        <li><a href=index.html>Home</a></li>
-        <li class="navactive"><a href="html-css.html">HTML and CSS</a></li>
-        <li><a href="python.html">Python</a></li>
-        <li><a href="java.html">Java</a></li>
-        <li><a href="Comparison.html">Comparison</a></li>
-        <li><a href="git.html">Git</a></li>
-        <li><a href="javascript.html">JavaScript</a></li>
-      </ul>
-    </div>
-    <!--header-->
-    <div class="html-cssheader">
-      <h1>HTML and CSS Notes</h1>
-    </div>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <title>HTML and CSS Notes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <!--Navigation Bar-->
+  <div class="navigationbar">
+    <ul class="nav">
+      <li class="navHome"><a href=index.html>Home</a></li>
+      <li class="navActive navHTMLCSS"><a href="html-css.html">HTML and CSS</a></li>
+      <li class="navPython"><a href="python.html">Python</a></li>
+      <li class="navJava"><a href="java.html">Java</a></li>
+      <li class="navComparison"><a href="Comparison.html">Comparison</a></li>
+      <li class="navGit"><a href="git.html">Git</a></li>
+      <li class="navJavascript"><a href="javascript.html">JavaScript</a></li>
+    </ul>
+  </div>
+  <!--header-->
+  <div class="html-cssheader">
+    <h1>HTML and CSS Notes</h1>
+  </div>
 
-    <div class="section">
-      <h2 id="html-elements">Common HTML Elements</h2>
+  <div class="section">
+    <h2 id="html-elements">Common HTML Elements</h2>
 
-      <h4>Heading</h4>
-      <ul>
-        <li>Range from <span class="code">&lt;h1&gt;</span> to <span class="code">&lt;h6&gt;</span></li>
-      </ul>
+    <h4>Heading</h4>
+    <ul>
+      <li>Range from <span class="code">&lt;h1&gt;</span> to <span class="code">&lt;h6&gt;</span></li>
+    </ul>
 
-      <h4>Paragraph</h4>
-      <ul>
-        <li>Use <span class="code">&lt;p&gt;</span> to start a paragraph</li>
-        <li>Use <span class="code">&lt;br/></span> to start break up paragraph into a new line</li>
-      </ul>
+    <h4>Paragraph</h4>
+    <ul>
+      <li>Use <span class="code">&lt;p&gt;</span> to start a paragraph</li>
+      <li>Use <span class="code">&lt;br/></span> to start break up paragraph into a new line</li>
+    </ul>
 
-      <h4>Lists</h4>
-      <ul>
-        <li>Ordered Lists using <span class="code">&lt;OL&gt;</span></li>
-        <li>Unordered Lists using <span class="code">&lt;UL&gt;</span></li>
-      </ul>
+    <h4>Lists</h4>
+    <ul>
+      <li>Ordered Lists using <span class="code">&lt;OL&gt;</span></li>
+      <li>Unordered Lists using <span class="code">&lt;UL&gt;</span></li>
+    </ul>
 
-      <h4>Link</h4>
-      <ul>
-        <li>Use <span class="code">&lt;a href="link"&gt&lt;/a&gt;</span> to enclose an element to make it clickable</li>
-      </ul>
+    <h4>Link</h4>
+    <ul>
+      <li>Use <span class="code">&lt;a href="link"&gt&lt;/a&gt;</span> to enclose an element to make it clickable</li>
+    </ul>
 
-      <h4>Image</h4>
-      <ul>
-        <li>Use <span class="code">&lt;img src="insert link"/&gt;</span> to insert an image</li>
-        <li>Use attribute <span class="code">alt</span> for the visually impaired by entering a description</li>
-      </ul>
+    <h4>Image</h4>
+    <ul>
+      <li>Use <span class="code">&lt;img src="insert link"/&gt;</span> to insert an image</li>
+      <li>Use attribute <span class="code">alt</span> for the visually impaired by entering a description</li>
+    </ul>
 
-      <h4>Comment</h4>
-      <ul>
-        <li>[HTML]Use <span class="code">&lt;!--Comment Here--&gt;</span></li>
-        <li>[CSS] Use <span class="code">/* Comment Here */</span></li>
-      </ul>
-    </div>
+    <h4>Comment</h4>
+    <ul>
+      <li>[HTML]Use <span class="code">&lt;!--Comment Here--&gt;</span></li>
+      <li>[CSS] Use <span class="code">/* Comment Here */</span></li>
+    </ul>
+  </div>
 
-    <div class="section">
-      <h2 id="css-setup">CSS Setup</h2>
-      <ul>
-        <li>Use <span class="code">&lt;style&gt;&lt;/style&gt;</span> in &lt;head&gt; to type css codes</li>
-        <li>Link stylesheet by using <span class="code">&lt;link rel="stylesheet" type"text/css" href="name.css"&gt;</span></li>
-      </ul>
-    </div>
+  <div class="section">
+    <h2 id="css-setup">CSS Setup</h2>
+    <ul>
+      <li>Use <span class="code">&lt;style&gt;&lt;/style&gt;</span> in &lt;head&gt; to type css codes</li>
+      <li>Link stylesheet by using <span class="code">&lt;link rel="stylesheet" type"text/css" href="name.css"&gt;</span></li>
+    </ul>
+  </div>
 
-    <div class="section">
-      <h2 id="declarations">CSS Declarations</h2>
-      <p>[Format] <span class="code">selector {property: value};</span><p/>
+  <div class="section">
+    <h2 id="declarations">CSS Declarations</h2>
+    <p>[Format] <span class="code">selector {property: value};</span><p/>
     </div>
 
     <div class="section">
@@ -216,6 +216,7 @@ and open the template in the editor.
         <li>[tfoot] used for sums</li>
       </ul>
     </div>
-
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src='main.js'></script>
   </body>
-</html>
+  </html>
