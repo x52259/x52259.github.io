@@ -57,6 +57,26 @@ ul.nav{
     margin: 5px auto;
     text-align: center;
     list-style-type: none;
+
+}
+
+.code {
+    padding: 2px 10px 2px 10px;
+    margin: 5px 3px 5px 3px;
+    background-color: rgba(255,255,0,0.35);
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 7px;
+    font-family: monospace, sans-serif;
+}
+.blockcode {
+    padding: 20px 12px 20px 12px;
+    margin: 15px 10px 10px 35px;
+    background-color: rgba(255,255,0,0.35);
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: monospace, sans-serif;
 }
 /*---------index.html--------- */
 .header{
@@ -183,4 +203,8 @@ div.javascript-header h2{
     font-size: 50px;
     text-align: center;
     background-color: rgba(255,0,0,0.7);
+}
+#ForLoop {
+    background: contain;
+    background-attachment: fixed;
 }

@@ -34,50 +34,50 @@ and open the template in the editor.
 
       <h4>Heading</h4>
       <ul>
-        <li>Range from &lt;h1&gt; to &lt;h6&gt;</li>
+        <li>Range from <span class="code">&lt;h1&gt;</span> to <span class="code">&lt;h6&gt;</span></li>
       </ul>
 
       <h4>Paragraph</h4>
       <ul>
-        <li>Use &lt;p&gt; to start a paragraph</li>
-        <li>Use &lt;br/> to start break up paragraph into a new line</li>
+        <li>Use <span class="code">&lt;p&gt;</span> to start a paragraph</li>
+        <li>Use <span class="code">&lt;br/></span> to start break up paragraph into a new line</li>
       </ul>
 
       <h4>Lists</h4>
       <ul>
-        <li>Ordered Lists using &lt;OL&gt;</li>
-        <li>Unordered Lists using &lt;UL&gt;</li>
+        <li>Ordered Lists using <span class="code">&lt;OL&gt;</span></li>
+        <li>Unordered Lists using <span class="code">&lt;UL&gt;</span></li>
       </ul>
 
       <h4>Link</h4>
       <ul>
-        <li>Use &lt;a href="link"&gt&lt;/a&gt; to enclose an element to make it clickable</li>
+        <li>Use <span class="code">&lt;a href="link"&gt&lt;/a&gt;</span> to enclose an element to make it clickable</li>
       </ul>
 
       <h4>Image</h4>
       <ul>
-        <li>Use &lt;img src="insert link"/&gt; to insert an image</li>
-        <li>Use attribute alt for the visually impaired by entering a description</li>
+        <li>Use <span class="code">&lt;img src="insert link"/&gt;</span> to insert an image</li>
+        <li>Use attribute <span class="code">alt</span> for the visually impaired by entering a description</li>
       </ul>
 
       <h4>Comment</h4>
       <ul>
-        <li>[HTML]Use &lt;!--Comment Here--&gt;</li>
-        <li>[CSS] Use /* Comment Here */</li>
+        <li>[HTML]Use <span class="code">&lt;!--Comment Here--&gt;</span></li>
+        <li>[CSS] Use <span class="code">/* Comment Here */</span></li>
       </ul>
     </div>
 
     <div class="section">
       <h2 id="css-setup">CSS Setup</h2>
       <ul>
-        <li>Use &lt;style&gt;&lt;/style&gt; in &lt;head&gt; to type css codes</li>
-        <li>Link stylesheet by using &lt;link rel="stylesheet" type"text/css" href="name.css"&gt;</li>
+        <li>Use <span class="code">&lt;style&gt;&lt;/style&gt;</span> in &lt;head&gt; to type css codes</li>
+        <li>Link stylesheet by using <span class="code">&lt;link rel="stylesheet" type"text/css" href="name.css"&gt;</span></li>
       </ul>
     </div>
 
     <div class="section">
       <h2 id="declarations">CSS Declarations</h2>
-      <p>[Format] selector{property: value}<p/>
+      <p>[Format] <span class="code">selector {property: value};</span><p/>
     </div>
 
     <div class="section">
@@ -124,7 +124,7 @@ and open the template in the editor.
       <ul>
         <li>Use border-width property to set values </li>
         <li>[Example] border-width: top right bottom left</li>
-        <li>[Example] border-width: 2px 5px 2px 5px</li>
+        <li>[Example] <span class="code">border-width: 2px 5px 2px 5px</span></li>
       </ul>
       <div class="Bwidthsample">
         <p>Example</p>
@@ -140,10 +140,10 @@ and open the template in the editor.
       <h4>[Box Borders] - More</h4>
       <ul>
         <li>Use shorthanded property: "border: width style color" to specify all three properties in a single line</li>
-        <li>[Example] border: 5px double blue;</li>
+        <li>[Example] <span class="code">border: 5px double blue;</span></li>
         <li><p class="BorderSample">Border Example</p></li>
         <li>Use "border-radius: size" to round off corners</li>
-        <li>[Example] border-radius: 20px;</li>
+        <li>[Example] <span class="code">border-radius: 20px;</span></li>
         <li><p class="BorderRadiusSample">Border Radius Example</p></li>
       </ul>
 
@@ -152,13 +152,13 @@ and open the template in the editor.
     <div class="section">
       <h2 id="css-content">CSS Content</h2>
       <ul>
-        <li><b>padding</b>: Adds invisible space within a box</li>
-        <li><b>margin</b>: Adds invisible space outside a box</li>
+        <li><b class="code">padding</b>: Adds invisible space within a box</li>
+        <li><b class="code">margin</b>: Adds invisible space outside a box</li>
         <li>Both properties behave similar to the border property</li>
-        <li><b>display</b>: inline, block, inline-block, and none</li>
-        <li><b>visibility</b> visible, hidden</li>
-        <li>[display: none] will remove an element from view</li>
-        <li>[visibility: hidden] will show its reserved space</li>
+        <li><b class="code">display</b>: inline, block, inline-block, and none</li>
+        <li><b class="code">visibility</b> visible, hidden</li>
+        <li><span class="code">[display: none]</span> will remove an element from view</li>
+        <li><span class="code">[visibility: hidden]</span> will show its reserved space</li>
       </ul>
     </div>
 
@@ -188,15 +188,17 @@ and open the template in the editor.
       <h4 id="images">Images</h4>
       <ul>
         <li>define dimensions using [width] and [height]</li>
-        <li>[background-image: url("")]</li>
-        <li>[background-repeat]</li>
-        <li>[background-position]</li>
-        <li>Shorthanded:[background: url("link") no-repeat right center;</li>
-        <li>[background-size] cover or contain</li>
-        <li>[background-attachment] default:scroll or fixed</li>
-        <li>(CSS3)[background-image: -webkit-linear-gradient(#666CCC, #BC1324);]</li>
-        <li>&LT;img> when it communicates important info</li>
-        <li>[background] when used for styling page</li>
+        <li><span class="code">background-image: url("folder/file.ext")</span></li>
+        <li><span class="code">background-repeat</span></li>
+        <li><span class="code">background-position</span></li>
+        <li>Shorthanded:<span class="code">background: url("link") no-repeat right center;</span></li>
+        <li><span class="code">background-size:cover;</span> <span class="code">background-size: contain;</li>
+        <li><span class="code">background-attachment: fixed;</span> default:scroll</li>
+        <li>(CSS3)<span class="code">background-image: -webkit-linear-gradient(#666CCC, #BC1324);</span></li>
+        <li class="blockcode" style="background-image: -webkit-linear-gradient(#666CCC, #BC1324);">Example:</li>
+
+        <li>Use <span class="code">&LT;img src="link"></span> when it communicates important info</li>
+        <li>Use <span class="code">background: url("link")</span> when used for styling page</li>
       </ul>
     </div>
 
