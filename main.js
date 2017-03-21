@@ -3,9 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-function main() {
-	$('.navComparison').hide();
-	$('.navJava').hide();
+ function main() {
+	//$('.navComparison').hide();
+	//$('.navJava').hide();
+	$('.navigationbar').load('navBar.html');
+    //$('.navHome').onClick()
+    //var navHome = document.getElementsByClassName('.navHome');
+    //navHome.addClass('.navActive');
+    $('h2').addClass('sectionButton');
+    $('.sectionButton').click(function () {
+    	$(this).next().toggle('displayToggle');
+    });
+
 }
 
 $(document).ready(main);
