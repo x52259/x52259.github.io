@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  <title>JavaScript</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <!--Navigation Bar-->
+  <div class="navigationbar"></div>
+  <!--header-->
+  <div class="javascript-header"><h2>JavaScript</h2></div>
+  <!--content-->
+  <div class="section">
+    <h2>Syntax</h2>
+    <div>
+      <ul>
+        <li>[Comment] single-line <span class="code">//text</span></li>
+        <li>[Comment] multi-line <span class="code">/* comment */</span></li>
+        <li>[Math.floor()] whole numbers</li>
+        <li>[Variables] <span class="code">var variableName = value;</span></li>
+        <li>[or] use <span class="code">||</span></li>
+        <li>[and] use <span class="code">&&</span></li>
+        <li>[equal] use <span class="code">===</span> </li>
+        <li>[notEqual] use <span class="code">!==</span> </li>
+        <li>[!] changes a variable that is true to false, and vice versa.</li>
+        <li>[Case Example]</li>
+        <img class="blockcode" src="javascriptCaseExample.PNG"/>
+        <li>[Function Example]</li>
+        <img class="blockcode" src="javascriptFunctionExample.PNG"/>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Scope</h2>
+    <div>
+      <ul>
+        <li><strong>Scope</strong> is the idea in programming that some variables are acessible/inaccessible from other parts of the program.</li>
+        <li><strong>Global Scope</strong> refers to variables that are accessible to every part of the program.</li>
+        <li><strong>Functional Scope</strong> refers to variables created inside functions, which are not accessible outside of its block.</li>
+        <img class="blockcode" src="javascriptScopeExample.PNG"/>
+        <li>In the above example, when <span class="code">myAppartment()</span> is called, the global variable was changed.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Arrays</h2>
+    <div>
+      <ul>
+        <li>[push()] <span class="code">arrayName.push('item1', 'item2');</span> <u>add</u> items to the <u>end</u> of an array</li>
+        <li>[pop()] <span class="code">arrayName.pop();</span> <u>removes last item</u> in an array</li>
+        <img class="blockcode" src="javascriptArrayExample.PNG" />
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Loops</h2>
+    <div>
+      <ul>
+        <img src="javascriptForLoopDiagram.png"/>
+        <li>For Loop:</li>
+        <img class="blockcode" src="javascriptForLoopExample.PNG"/>
+        <li>Nested For Loop:</li>
+        <img class="blockcode" src="javascriptNestedForLoopExample.PNG"/>
+        <li>While Loop:</li>
+        <img class="blockcode" src="javascriptWhileLoopExample.PNG"/>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Setup</h2>
+    <div>
+      <ul>
+        <li>[jQuery]&lt;script src='https://code.jquery.com/jquery-3.1.0.min.js'>&lt;/script></li>
+        <li>[Link to HTML] use tag <span class="code">&lt;script src='folderName/main.js'>&lt;/script></span> in index.html </li>
+        <li>[jQuery] Execute main function when document is ready </li>
+        <li class="blockcode"> $(document).ready(main);</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 id="1">Selecting a DOM Element</h2>
+    <div>
+      <ul>
+        <li>[Javascript-Select] <span class="code">var element = document.getElementsByClassName('className')</span></li>
+        <li>[jQuery-Select] <span class="code">var element = ('.className');</span></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 >JavaScript DOM / jQuery</h2>
+    <div>
+      <ul>
+        <li>[hide]<span class="code">$('.class').hide();</span></li>
+        <li>[show]<span class="code">$('.class').show();</span> changes css code <span class="code">display:none</span> to visible</li>
+        <li>[toggle]<span class="code">$('.class').toggle();</span> show or hide an element</li>
+        <li>[fade]<span class="code">$('.class').fadeIn(1000);</span> parameter= time in milliseconds</li>
+        <li>[onClick]<span class="code">$('.class').on('Click', function() {insert code here});</span></li>
+        <li>[toggleClass]]<span class="code">$('.class').toggleClass('classWithoutPeriod');</span> toggles a CSS class by removing or adding a class tag </li>
+        <li>[$(this)] <span class="code">$(this).someCommand()</span>Selects the clicked-on(in-context) element</li>
+        <li>[next()] <span class="code">$('.item-one').next()</span></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2></h2>
+    <div>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2></h2>
+    <div>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2></h2>
+    <div>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  <script src='../main.js'></script>
+</body>
+</html>

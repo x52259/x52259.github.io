@@ -1,226 +1,239 @@
 /*{
-        border: 1px solid Red;
-        }
-        /*---------main---------*/
-        html{
-            background-color: #000000;
-            color: White;
-            font-family: Arial, san-serif;
-        }
+	border: 1px solid Red;
+}
+/*---------main---------*/
+html {
+	background-color: #000000;
+	color: White;
+	font-family: Arial, san-serif;
+	font-size: 1em;
 
-        .navigationbar{
-            background-color: rgba(0,0,0,0.80);
-            color: white;
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 10000;
-        }
+}
 
-        ul.nav li{
-            display: inline-block;
-            border: 1px solid white;
-            box-sizing: border-box;
-            margin: 2px 0px;
-            min-width: 13%;
-            text-align: center;
-            background-color: black;
-        }
+body {
+	display: flex;
+	flex-direction: column;
+}
 
-        ul.nav li:hover {
-            color: red;
-            border: 3px double red;
-            margin: 0px 10px;
-        }
+img {
+	max-width: 90%;
+}
 
-        li[class="navActive"]{
-            border: 1px solid red;
-        }
+.code {
+	padding: 2px 10px 2px 10px;
+	margin: 5px 3px 5px 3px;
+	background-color: rgba(255,255,0,0.35);
+	box-sizing: border-box;
+	display: inline-block;
+	border-radius: 7px;
+	font-family: monospace, sans-serif;
 
-        ul.nav li a{
-            display: block;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-decoration: none;
-        }
+}
 
-        ul.nav li a:hover{
-            color: red;
-        }
+.blockcode {
+	padding: 20px 12px 20px 12px;
+	margin: 15px 10px 10px 35px;
+	background-color: rgba(255,255,0,0.35);
+	box-sizing: border-box;
+	display: inline-block;
+	border-radius: 20px;
+	font-family: monospace, sans-serif;
+}
+/*---------Navigation---------*/
+.navigationbar, .nav a:visited {
+	background-color: rgba(0,0,0,0.80);
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+    width: 100%;
+	text-align: center;
+}
 
-        ul.nav{
-            margin: 5px auto;
-            text-align: center;
-            list-style-type: none;
-        }
+.nav a{
+	display: inline-block;
+	border: 1px solid white;
+	box-sizing: border-box;
+	margin: 2px 0px;
+	min-width: 13%;
+	text-decoration: none;
+}
 
-        .code {
-            padding: 2px 10px 2px 10px;
-            margin: 5px 3px 5px 3px;
-            background-color: rgba(255,255,0,0.35);
-            box-sizing: border-box;
-            display: inline-block;
-            border-radius: 7px;
-            font-family: monospace, sans-serif;
-        }
+.nav a:hover {
+	color: red;
+	border: 3px double red;
+	margin: 0px 10px;
+	text-decoration: none;
+}
 
-        .blockcode {
-            padding: 20px 12px 20px 12px;
-            margin: 15px 10px 10px 35px;
-            background-color: rgba(255,255,0,0.35);
-            box-sizing: border-box;
-            display: inline-block;
-            border-radius: 20px;
-            font-family: monospace, sans-serif;
-        }
-        /*---------index.html---------*/
-        .header-text {
-            text-align: center;
-            font-size: 4em;
-            font-weight: bold;
-            background-color: rgba(0,0,0,0.75);
-            position: fixed;
-            top: auto;
-            left: 0;
-            right: 0;
-            bottom:20%;
-            padding: 25px 0;
-        }
+.navActive {
+	border: 1px solid red !important;
+}
+/*---------Footer---------*/
+.footer-placeholder {
+	margin-top: 5px;
+	padding: 10px 12px;
+	border-top-color: red;
+	border-top: 1px solid;
+    min-width: 450px;
+	display: flex;
+	justify-content: space-between;
+}
 
-        .header {
-          position: fixed;
-          top: 40px;
-          left: 0;
-          bottom: 0;
-          right: 0;
-          overflow: auto;
-          background: url("wallpaper.jpg") no-repeat center; /* Just to visualize the extent */
-          background-size: cover;
-      }
+.footer-box1 {
+	margin: 0px;
+	padding: 0px;
+	border: 1px dotted blue;
+    flex-basis: auto;
+}
+/*---------index.html---------*/
+.header-text {
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.75);
+	position: fixed;
+	top: auto;
+	left: 0;
+	right: 0;
+	bottom:20%;
+	padding: 25px 0;
+}
 
-      h1{
-        font-size: 70px;
-        font-weight: 700;
-        margin: 0;
-        padding-top: 200px;
-        text-align: center;  
-        background-color: rgba(0,0,0,0.15);
-    }
+.header {
+	position: fixed;
+	top: 40px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: auto;
+	background: url("wallpaper.jpg") no-repeat center; /* Just to visualize the extent */
+	background-size: cover;
+}
 
-    .section{
-        background-color: rgba(255,255,255,0.22);
-        margin: 5px 10%;
-        padding: 1px 0 1px 15px;
-    }
-    /*---------html-css.html--------- */
-    .html-cssheader{
-        margin-top: 40px;
-    }
-    [class^="BB"]{
-        margin-bottom: 13px;
-        max-width: 400px;
-    }
+h1{
+	font-size: 70px;
+	font-weight: 700;
+	margin: 0;
+	padding-top: 200px;
+	text-align: center;  
+	background-color: rgba(0,0,0,0.15);
+}
 
-    .BBSolid{
-        border: solid;
-    }
+.section{
+	background-color: rgba(255,255,255,0.22);
+	margin: 5px 5%;
+	padding: 1px 0 1px 16px;
+	display: flex;
+    flex-direction: column;
+    
+}
+/*---------html-css.html--------- */
+.html-cssheader{
+	margin-top: 40px;
+}
+[class^="BB"]{
+	margin-bottom: 13px;
+	max-width: 400px;
+}
 
-    .BBDashed{
-        border: dashed;
-    }
+.BBSolid{
+	border: solid;
+}
 
-    .BBDotted{
-        border-style: dotted;
-    }
+.BBDashed{
+	border: dashed;
+}
 
-    .BBDouble{
-        border-style: double;
-    }
+.BBDotted{
+	border-style: dotted;
+}
 
-    .BBGroove{
-        border-style: groove;
-    }
+.BBDouble{
+	border-style: double;
+}
 
-    .BBInset{
-        border-style: inset;
-    }
+.BBGroove{
+	border-style: groove;
+}
 
-    .BBOutset{
-        border-style: outset;
-    }
+.BBInset{
+	border-style: inset;
+}
 
-    .BBRidge{
-        border-style:ridge;
-    }
+.BBOutset{
+	border-style: outset;
+}
 
-    .BBHidden{
-        border-style: hidden;
-    }
+.BBRidge{
+	border-style:ridge;
+}
 
-    .Bwidthsample{
-        border: solid;    
-        border-width: 2px 9px 2px 9px;
-        max-width: 400px;
-        padding: 10px;
-        display: block;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-    }
+.BBHidden{
+	border-style: hidden;
+}
 
-    .BorderSample{
-        border: 5px double green;
-        padding: 10px;
-        margin-bottom: 10px;
-        display: block;
-        max-width: 600px;
-        box-sizing: border-box;
-    }
+.Bwidthsample{
+	border: solid;    
+	border-width: 2px 9px 2px 9px;
+	max-width: 400px;
+	padding: 10px;
+	display: block;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
 
-    .BorderRadiusSample{
-        border: 5px double yellow;
-        border-radius: 20px;
-        padding: 10px;
-        display: block;
-        max-width: 600px;
-        box-sizing: border-box;
-    }
-    /*---------python.html--------- */
-    .pythonheader{
-        background: url("python_logo.png") no-repeat  top center;
-        background-size: contain;
-        background-attachment: fixed;
-        margin-top: 40px;
-        padding: 20% 0% 15% 0%;
-        box-sizing: border-box;
-    }
-    /*---------git.html--------- */
-    .githeader{
-        background: url("gitlogo.jpg") no-repeat top center;
-        background-size: contain;
-        background-attachment: fixed;
-        margin-top: 40px;
-        padding: 24% 0%;
-        box-sizing: border-box;
-    }
-    /*---------javascript.html---------*/
-    .javascript-header{
-        background: url("javascriptheader.gif") no-repeat top center;
-        background-size: auto;
-        background-attachment: fixed;
-        margin-top: 40px;
-        padding: 24% 5% 11% 5%;
-        box-sizing: border-box;
-    }
+.BorderSample{
+	border: 5px double green;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: block;
+	max-width: 600px;
+	box-sizing: border-box;
+}
 
-    div.javascript-header h2{
-        font-size: 50px;
-        text-align: center;
-        background-color: rgba(255,0,0,0.7);
-    }
-    /*---------jmain.js---------*/
-    .displayToggle {
-        display: none;
-    }
+.BorderRadiusSample{
+	border: 5px double yellow;
+	border-radius: 20px;
+	padding: 10px;
+	display: block;
+	max-width: 600px;
+	box-sizing: border-box;
+}
+/*---------python.html--------- */
+.pythonheader{
+	background: url("python/python_logo.png") no-repeat  top center;
+	background-size: contain;
+	background-attachment: fixed;
+	min-height: 400px;
+	padding: 20% 0% 15% 0%;
+	box-sizing: border-box;
+}
+/*---------git.html--------- */
+.githeader{
+	background: url("git/gitlogo.jpg") no-repeat top center;
+	background-size: contain;
+	background-attachment: fixed;
+	width: 100%;
+	padding: 24% 0%;
+	box-sizing: border-box;
+}
+/*---------javascript.html---------*/
+.javascript-header{
+	background: url("javascript/javascriptheader.gif") no-repeat top center;
+	background-size: auto;
+	background-attachment: fixed;
+	padding: 24% 5% 11% 5%;
+	box-sizing: border-box;
+	min-height: 400px;
+}
+
+div.javascript-header h2{
+	font-size: 50px;
+	text-align: center;
+	background-color: rgba(255,0,0,0.7);
+}
+/*---------jmain.js---------*/
+.displayToggle {
+	display: none;
+}
+

@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css">
   <title>Git</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,39 +54,43 @@ and open the template in the editor.
 
   <div class="section">
     <h2>Git Teamwork</h2>
-    <ul>
-      <li><span class="code">git clone remote_location my_clone_name</span> clone a remote respository</li>
-      <li><span class="code">git remote -v</span>                           lists a Git project's remotes</li>
-      <li><span class="code">git fetch</span>                               fetches work from the remote into the local copy</li>
-      <li><span class="code">git merge origin/master</span>                 merges origin/master into your local branch.</li>
-      <li><span class="code">git push origin your_branch_name</span>        pushes a local branch to the origin remote</li>
-    </ul>
-    <p>Git Collaborative Workflow:</p>
-    <p>A <b>remote</b> is a Git repository that lives outside your Git project folder. Remotes can live on the web, on a shared network or even in a separate folder on your local computer.</p>
-    <ol>
-      <li><span class="code">Fetch</span> and <span class="code">merge</span> changes from the remote.</li>
-      <li>Create a <span class="code">branch</span> to work on a new project feature.</li>
-      <li>Develop the feature on your branch and <span class="code">commit</span> your work.</li>
-      <li><span class="code">Fetch</span> and <span class="code">merge</span> from the remote again (in case new commits were made while you were working) </li>
-      <li><span class="code">Push</span> your branch up to the remote for review</li>
-    </ol>
+    <div>
+      <ul>
+        <li><span class="code">git clone remote_location my_clone_name</span> clone a remote respository</li>
+        <li><span class="code">git remote -v</span>                           lists a Git project's remotes</li>
+        <li><span class="code">git fetch</span>                               fetches work from the remote into the local copy</li>
+        <li><span class="code">git merge origin/master</span>                 merges origin/master into your local branch.</li>
+        <li><span class="code">git push origin your_branch_name</span>        pushes a local branch to the origin remote</li>
+      </ul>
+      <p>Git Collaborative Workflow:</p>
+      <p>A <b>remote</b> is a Git repository that lives outside your Git project folder. Remotes can live on the web, on a shared network or even in a separate folder on your local computer.</p>
+      <ol>
+        <li><span class="code">Fetch</span> and <span class="code">merge</span> changes from the remote.</li>
+        <li>Create a <span class="code">branch</span> to work on a new project feature.</li>
+        <li>Develop the feature on your branch and <span class="code">commit</span> your work.</li>
+        <li><span class="code">Fetch</span> and <span class="code">merge</span> from the remote again (in case new commits were made while you were working) </li>
+        <li><span class="code">Push</span> your branch up to the remote for review</li>
+      </ol>
+    </div>
   </div>
 
   <div class="section">
     <h2>More</h2>
-    <p>cd C:\\github\x52259.github.io</p>
-    <p>git add C:\\github\x52259.github.io</p>
-    <p>git commit -m ""</p>
-    <p>git push origin</p>
+    <div>
+      <p>cd C:\\github\x52259.github.io</p>
+      <p>git add C:\\github\x52259.github.io</p>
+      <p>git commit -m ""</p>
+      <p>git push origin</p>
 
-    <p><span class="code">git add &lt;dir></span>                  add all files in a directory</p>
-    <p><span class="code">git rm $(git ls-files --deleted)</span>  remove all deleted files from the project </p>
+      <p><span class="code">git add &lt;dir></span>                  add all files in a directory</p>
+      <p><span class="code">git rm $(git ls-files --deleted)</span>  remove all deleted files from the project </p>
 
-    <p class="blockcode"><a href="https://gist.github.com/iansheridan/870778">Git Cheatsheet</a></p>
-    <p class="blockcode"><a href="https://gist.github.com/hofmannsven/6814451">Simple Git Cheatsheet</a></p>
+      <p class="blockcode"><a href="https://gist.github.com/iansheridan/870778">Git Cheatsheet</a></p>
+      <p class="blockcode"><a href="https://gist.github.com/hofmannsven/6814451">Simple Git Cheatsheet</a></p>
+    </div>
   </div>
   <!--script-->
   <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-  <script src='main.js'></script>
+  <script src='../main.js'></script>
 </body>
 </html>

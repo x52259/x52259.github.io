@@ -4,17 +4,15 @@
  * and open the template in the editor.
  */
  function main() {
-	//$('.navComparison').hide();
-	//$('.navJava').hide();
-	$('.navigationbar').load('navBar.html');
-    //$('.navHome').onClick()
-    //var navHome = document.getElementsByClassName('.navHome');
-    //navHome.addClass('.navActive');
+	$('.navigationbar').load('../navBar.html');
     $('h2').addClass('sectionButton');
     $('.sectionButton').click(function () {
-    	$(this).next().toggle('displayToggle');
-    });
+        $(this).next().toggle('displayToggle');
+    });  
 
+    //var navPython = document.getElementsByClassName('.navPython');
+    //$('li.navPython').css({"border":"2px solid red"});
 }
 
 $(document).ready(main);
+
